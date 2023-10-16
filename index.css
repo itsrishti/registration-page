@@ -69,6 +69,73 @@ background: linear-gradient(90deg, rgba(208,150,211,1) 1%, rgba(120,176,237,0.99
     /* bottom: 5px; */
     /* top:5px; */
     bottom: 595px;
+    /* background-url: https://media.istockphoto.com/id/1059510610/vector/it-communication-e-learning-internet-network-as-knowledge-base.jpg?s=1024x1024&w=is&k=20&c=kmwjqSyGp0deNokYdBz6avSvWv6aRujZ8LDuIxul4cc= alt=""; */
 }
+.main{
+    height:45px;
+    width:700px;
+    margin-left: 45px;
+    padding: 5%;
+}
+/* .user-input box{
+    height:4px;
+    width:45px;
+    padding:45px;
+    margin: 56px;
+    position: relative;
+    font-size: 5px;
+
+
+} */
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:aliceblue;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px rgb(237, 151, 151);
+
+}
+.main{
+display: flex;
+flex-wrap:wrap;
+/* justify-content:space-between; */
+padding: 20px 0;
+/* margin-left: 4px; */
+
+}
+.user-input-box{
+    display: flex;
+    flex-wrap:flexwrap;
+    width: 70%;
+    padding-bottom: 1px;
+    height: 34px;
+    align-content: normal;
+    top:50px;
+    /* margin-bottom: 45px; */
+    justify-content: center;
+    margin-top: 6%;
+    /* align-items: center; */
+}
+.user-input-box label{
+    width: 30%;
+    color:black;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 2px 0;
+    padding: 1%;
+}
+.h1{
+    /* font-size: larger; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    /* margin-left: 96px; */
+    margin:56px ;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+    
     
     
