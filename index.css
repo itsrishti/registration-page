@@ -18,9 +18,12 @@
         top:40px;
     }
 .first{
-        background: rgb(141, 93, 252);
-    background: linear-gradient(90deg, rgba(208,150,211,1) 16%, rgba(120,176,237,0.9921218487394958) 73%, rgb(100, 130, 220) 100%);
-        height: 650px;
+        /* background: rgb(141, 93, 252);
+    background: linear-gradient(90deg, rgba(208,150,211,1) 16%, rgba(120,176,237,0.9921218487394958) 73%, rgb(100, 130, 220) 100%); */
+     
+    background: rgb(15, 15, 15);;
+    background: linear-gradient(90deg, black 100%, rgb(164, 160, 154) 50%);
+_        height: 650px;
         width: 700px;
         position: relative;
         margin-top: 40px;
@@ -32,8 +35,10 @@
     }
     .firstpart{
         
-        background: rgb(73, 81, 167);;
-background: linear-gradient(90deg, rgba(208,150,211,1) 1%, rgba(120,176,237,0.9921218487394958) 73%, rgb(86, 121, 227) 100%);
+        /* background: rgb(13, 13, 14);;
+background: linear-gradient(90deg, rgb(210, 198, 151) 1%, rgba(37, 35, 32, 0.992) 73%, rgb(207, 193, 126) 100%); */
+background: rgb(46,44,40);
+background: linear-gradient(90deg, rgb(172, 99, 66) 18%, rgb(196, 143, 50) 100%);
     height: 550px;
     width: 500px;
     position: relative;
@@ -107,15 +112,15 @@ padding: 20px 0;
 }
 .user-input-box{
     display: flex;
-    flex-wrap:flexwrap;
-    width: 70%;
+    /* flex-wrap:flexwrap; */
+    width: 75%;
     padding-bottom: 1px;
-    height: 34px;
+    height: 38px;
     align-content: normal;
     top:50px;
     /* margin-bottom: 45px; */
     justify-content: center;
-    margin-top: 6%;
+    margin-top: 4%;
     /* align-items: center; */
 }
 .user-input-box label{
@@ -126,16 +131,38 @@ padding: 20px 0;
     margin: 2px 0;
     padding: 1%;
 }
-.h1{
-    /* font-size: larger; */
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 300;
-    /* margin-left: 96px; */
-    margin:56px;
-    text-align: center;
-    justify-content: center;
+.main h1{
+    font-size: 40px;
+    /* font-family: 'Courier New', Courier, monospace; */ */
+    /* font-weight: 300;
+    margin-left: 96px;
+    margin:56px; */
+    /* /* text-align: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* margin-left: 200px; */
+    /* position: relative; */
+}
+.main img{
+    height: 650px;
+    width: 700px;
+     position: relative;
+    /* margin-top: 40px; */
+    /* bottom:29px; */
+    /* margin-left: 700px; */
+    /* margin-bottom: 50px; */
+    bottom: 20px;
+    /* top:5px; */
+    /* bottom: 595px; */
+    margin-right: 300px;
+    right:45px;
     display: flex;
 }
     
-    
-    
+ /* .text h1{ */
+/* position: relative;
+/* top:50%; */
+/* left:50%;
+transform: translate(-50%,50%);
+}  
+     */ */
