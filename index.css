@@ -116,7 +116,7 @@ padding: 20px 0;
      width: 75%;  
     padding-bottom: 1px;
     height: 42px;
-    align-content: normal;
+    align-content: center;
     /* top:50px; */ 
     margin-bottom: 30px;
     justify-content: center;
@@ -133,15 +133,15 @@ padding: 20px 0;
 .user-input-box label{
     width: 36%;
     /* color:black; */
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 400;
-    /* margin: 2px 0;  */
-    padding: 1%; 
+    margin: 7px 0; 
+    /* padding: 1%;  */
     position: relative;
     top: 10px;
     bottom: -10px;
     left: 10%;
-    transform: translate(-40%, -50%);
+    transform: translate(-30%, -50%);
     color:white;
     /* display: flex; */
     /* justify-content: center; */
@@ -183,4 +183,17 @@ padding: 20px 0;
     transform: translate(-40%, -50%);
     color:aliceblue;
     font-size: 50px;;
+}
+#last{
+    /* border-radius: 60%; */
+    height: 40px;
+    width: 100px;
+    right: 100px;
+    /* transform: ;/ */
+    /* margin-right: 90x; */
+    transform: translate(100%, -20%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
 }
