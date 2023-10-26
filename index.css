@@ -1,11 +1,11 @@
 .container{
-    background-color: rgb(239, 185, 9);
+    background-color: rgb(19, 4, 49);
     height: 735px;
     width: 1500px;
 }
 .first{
 
-        background: rgb(214,  52);
+        background: rgb(19, 4, 49);;;
     /* background: linear-gradient(90deg, rgb(211, 207, 211) 16%, rgba(217, 220, 223, 0.992) 73%, rgb(226, 227, 232) 100%); */
         height: 650px;
         width: 700px;
@@ -21,8 +21,10 @@
         
         /* background: rgb(13, 13, 14);;
 background: linear-gradient(90deg, rgb(210, 198, 151) 1%, rgba(37, 35, 32, 0.992) 73%, rgb(207, 193, 126) 100%); */
-background: rgb(70, 164, 214);
-background: linear-gradient(90deg, rgb(235, 222, 171) 18%, rgb(231, 158, 14) 100%);
+/* background: rgb(70, 164, 214);
+background: linear-gradient(90deg, rgb(10, 14, 16) 100%); */
+background: rgb(19, 4, 49);;
+background: linear-gradient(90deg, rgb(198, 169, 100) 40%,rgb(184, 143, 31) 100%);
     height: 550px;
     width: 500px;
     position: relative;
@@ -47,7 +49,7 @@ background: linear-gradient(90deg, rgb(235, 222, 171) 18%, rgb(231, 158, 14) 100
         
 
     .second{
-    background-color:white;
+    background-color: rgb(19, 4, 49);;
     height: 650px;
     width: 700px;
     position: relative;
@@ -126,7 +128,7 @@ padding: 20px 0;
     bottom: -10px;
     left: 10%;
     transform: translate(-30%, -50%);
-    color:white;
+    color:whitesmoke;
     /* display: flex; */
     /* justify-content: center; */
     /* font-size: 50px; */
@@ -155,8 +157,8 @@ padding: 20px 0;
     bottom: 20px;
     /* top:5px; */
     /* bottom: 595px; */
-    margin-right: 300px;
-    right:45px;
+    /* margin-left: 1px; */
+    /* left:7px; */
     display: flex;
 }
    
@@ -194,24 +196,58 @@ padding: 20px 0;
 
    }
    #submitBtn{
-       color: #0f0d0d;
+       color: #0f0d0d,;
        bottom: 450px;
        position: relative;
        display: flex;
        height: 40px;
-       width: 60px;
+       width: 70px;
        justify-content: center;
        align-content: center;
        transform: translate(-40%,-50%);
        text-align: center;
        padding: 20%;
+       border: none;
+       cursor:pointer;
+
    }
    #submitBtn:hover{
        color: #fff;
        background-color: #0e0d0d;
    }
-   
+   #DOB{
+    font-size: 20px;
+    font-weight: 200;
+    
+       }
+     .imp{
+     
+       width: 1320px;
+        /* border: black; */
+       display: flex;
+       flex-wrap: wrap;
+       margin:auto;
+     } 
+     .items{
        
+        /* border: #0e0d0d; */
+flex-basis: 20%;
+position: relative;
+padding:1%;
+box-shadow: 0px 0px 10px 2px #ccc;
+
+     } 
+.items h5{
+        margin-bottom: 4px;
+     }
+     .items span{
+        position: absolute;
+        font-size: 30px;
+        cursor:pointer;
+        right: 0px;
+        top:0px;
+     }
+
    
    
    
