@@ -8,10 +8,21 @@
 let form = document.querySelector("form")
 form.addEventListener("submit",(event)=>{
     let name = event.target.fullname.value;
-    let email = event.target.email.value;
-    let address = event.target.address.value;
-    let dob = event.target.dob.value;
+    let Email = event.target.Email.value;
+    let Address = event.target.Address.value;
+    let Dob = event.target.Dob.value;
     let username = event.target.username.value;
     let Password = event.target.password.value;
+    var userdata = JSON.parse(localstorage.getItem("userdetails")) ??[];
+     userdata.push({
+       'name' :name, 
+       'Email' :Email, 
+       'username' :username, 
+       'Password' :Password, 
+       'Address' :Address, 
+       'Dob' :Dob,
+    
+     })
+     localStorage.setItem("userdetails",JSON.stringify(userdata))
     event.preventDefault();
 })
