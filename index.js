@@ -1,28 +1,18 @@
-// localStorage.setItem('name','srishti');
-// localStorage.setItem('adddress','sarojini hostel');
-// localStorage.setItem('DOB','28/02/2004');
-// localStorage.setItem('Password','srishti@123');
-// localStorage.setItem('username','cseaiml');
-// localStorage.setItem('email','srishti.vns2@gmail.com');
-// const input = document.getElementById('name');
-let form = document.querySelector("form")
-form.addEventListener("submit",(event)=>{
-    let name = event.target.fullname.value;
-    let Email = event.target.Email.value;
-    let Address = event.target.Address.value;
-    let Dob = event.target.Dob.value;
-    let username = event.target.username.value;
-    let Password = event.target.password.value;
-    var userdata = JSON.parse(localstorage.getItem("userdetails")) ??[];
-     userdata.push({
-       'name' :name, 
-       'Email' :Email, 
-       'username' :username, 
-       'Password' :Password, 
-       'Address' :Address, 
-       'Dob' :Dob,
-    
-     })
-     localStorage.setItem("userdetails",JSON.stringify(userdata))
-    event.preventDefault();
-})
+function test() {
+var fullname= document.getElementById("fullname").value;
+var username=document.getElementById("username").value;
+var Address=document.getElementById("Address").value;
+var DOB=document.getElementById("DOB").value;
+var Password=document.getElementById("Password").value;
+var Email=document.getElementById("Email").value;
+// alert(fullname+username+Password+DOB+Address+Email);
+var user = localStorage.setItem("username",username);
+var pass =localStorage.setItem("Password",Password);
+var date=localStorage.setItem("DOB",DOB);
+var add=localStorage.setItem("Address",Address);
+var name=localStorage.setItem("fullnmae",fullname);
+// var name=localStorage.setItem()
+var mail=localStorage.setItem("Email",Email);
+}
+
+
