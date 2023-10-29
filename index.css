@@ -14,7 +14,7 @@ body{
 }
 .first{
 
-        background: rgb(19, 4, 49);;;
+        background: rgb(19, 4, 49);
     /* background: linear-gradient(90deg, rgb(211, 207, 211) 16%, rgba(217, 220, 223, 0.992) 73%, rgb(226, 227, 232) 100%); */
         height: 650px;
         width: 700px;
@@ -23,7 +23,6 @@ body{
         /* bottom:29px; */
         margin-left: 50px;
         margin-bottom: 45px;
-        /* bottom: 5px; */
         top:40px;
     }
     .firstpart{
@@ -32,8 +31,8 @@ body{
 background: linear-gradient(90deg, rgb(210, 198, 151) 1%, rgba(37, 35, 32, 0.992) 73%, rgb(207, 193, 126) 100%); */
 /* background: rgb(70, 164, 214);
 background: linear-gradient(90deg, rgb(10, 14, 16) 100%); */
-background: rgb(19, 4, 49);;
-background: linear-gradient(90deg, rgb(198, 169, 100) 40%,rgb(184, 143, 31) 100%);
+    background: rgb(19, 4, 49);
+    background: linear-gradient(90deg, rgb(198, 169, 100) 40%,rgb(184, 143, 31) 100%);
     height: 550px;
     width: 500px;
     position: relative;
@@ -196,7 +195,7 @@ padding: 20px 0;
 #last{
     color: aliceblue;
 }
-#last: :hover{
+#last:hover{
     color: rgb(23, 185, 185);
     background-color:orangered;
 }
