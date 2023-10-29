@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .container{
     background-color: rgb(19, 4, 49);
     height: 735px;
